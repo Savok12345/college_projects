@@ -1,0 +1,83 @@
+user										news
+________									________
+user_id									news_id
+name										chapter_id
+surname									date
+mail										text
+password									headline
+phone									comm_id
+										author_id
+										
+
+
+
+comment									images
+________									________
+comm_id									image_id
+user_id									image_name
+comm_text									news_id
+news_id									description
+date										
+creator_id
+
+
+
+chapters									creator
+________									_______
+chapter_id								creator_id
+name_chapters								name
+description								surname
+										mail
+										password
+										phone
+										organization
+
+
+
+
+
+news
+________
+news_id
+body
+date
+header
+likes
+author_id
+topic_id
+
+topic
+________
+topic_id
+name
+notice
+
+author
+________
+author_id
+e_mail
+fio
+rating
+
+comment
+___________
+comment_id
+date
+likes
+text
+news_id
+user_id
+
+user
+________
+user_id
+e_mail
+fio
+phone
+
+images
+_________
+images_id
+image
+main
+news_id
